@@ -1,0 +1,373 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:2:1-60:12
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\6f53dcbfb2a7c0566b1ce0501fbc734f\AndroidManifest.xml:16:1-19:12
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:2:1-75:12
+MERGED from [:openCVLibrary341] C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\openCVLibrary341\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.dji:library-anti-distortion:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\library-anti-distortion-4.7.aar\d8ebd1a6c98d6c9ae5cccdeff0218b47\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ce3a4df6b5a5380304985e3b732ea189\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\dbd802ec6dd2716ec40f191a3296ea1d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\25f96f4325b978de6f9f9447dff10e7a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\e106aaf0b3c9bdd4f4bae70bc94372d9\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fb5046655a6d7b1e38363eaf4e2119b0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\ab6bfd01a45db75162dab100e5269c57\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9fe48d7b3fd523a939a7b574914fc53e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c9f0437bac9fcbf434838ccde24038ef\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\32d2616072aadadf0065047b06e812ef\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\bdc6890c349e632b6bbcb45e63601242\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:2:1-60:12
+	package
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:2:11-54
+		INJECTED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:3:5-63
+uses-permission#android.permission.VIBRATE
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:5:5-65
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:35:5-66
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:35:5-66
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:5:22-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:7:5-75
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:21:5-76
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:20:5-68
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:9:5-80
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:17:5-81
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:10:5-78
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:13:5-79
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:11:5-78
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:18:5-79
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:12:5-75
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:39:5-76
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:39:5-76
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:13:5-83
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:26:5-84
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:26:5-84
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:13:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:14:5-80
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:15:5-81
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:15:22-77
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:16:5-77
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:23:5-78
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:16:22-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:17:5-74
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:40:5-75
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:40:5-75
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:18:5-67
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:11:5-68
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:19:5-74
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:12:5-74
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:19:22-71
+uses-feature#android.hardware.camera
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:21:5-59
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:21:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:22:5-69
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:22:19-67
+uses-feature#android.hardware.usb.host
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:23:5-25:35
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:53:5-55:36
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:53:5-55:36
+	android:required
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:24:9-49
+uses-feature#android.hardware.usb.accessory
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:26:5-28:34
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:56:5-58:35
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:56:5-58:35
+	android:required
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:28:9-32
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:27:9-54
+application
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:30:5-58:19
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:60:5-73:19
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:60:5-73:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ce3a4df6b5a5380304985e3b732ea189\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ce3a4df6b5a5380304985e3b732ea189\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\dbd802ec6dd2716ec40f191a3296ea1d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\dbd802ec6dd2716ec40f191a3296ea1d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\25f96f4325b978de6f9f9447dff10e7a\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\25f96f4325b978de6f9f9447dff10e7a\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\e106aaf0b3c9bdd4f4bae70bc94372d9\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\e106aaf0b3c9bdd4f4bae70bc94372d9\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fb5046655a6d7b1e38363eaf4e2119b0\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fb5046655a6d7b1e38363eaf4e2119b0\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\ab6bfd01a45db75162dab100e5269c57\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\ab6bfd01a45db75162dab100e5269c57\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9fe48d7b3fd523a939a7b574914fc53e\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9fe48d7b3fd523a939a7b574914fc53e\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c9f0437bac9fcbf434838ccde24038ef\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c9f0437bac9fcbf434838ccde24038ef\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\32d2616072aadadf0065047b06e812ef\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\32d2616072aadadf0065047b06e812ef\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\bdc6890c349e632b6bbcb45e63601242\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\bdc6890c349e632b6bbcb45e63601242\AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:34:9-35
+	android:label
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:33:9-57
+	android:allowBackup
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:32:9-35
+	android:theme
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:35:9-40
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:31:9-49
+meta-data#com.dji.sdk.API_KEY
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:37:9-39:55
+	android:value
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:39:13-53
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:38:13-47
+activity#com.dji.videostreamdecodingsample.ConnectionActivity
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:41:9-53:20
+	android:screenOrientation
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:44:13-49
+	android:launchMode
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:42:13-47
+intent-filter#action:name:android.hardware.usb.action.USB_ACCESSORY_ATTACHED+action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:45:13-49:29
+action#android.intent.action.MAIN
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:46:17-68
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:47:17-76
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:47:27-74
+action#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:48:17-92
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:48:25-90
+meta-data#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:50:13-52:59
+	android:resource
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:52:17-57
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:51:17-82
+activity#com.dji.videostreamdecodingsample.MainActivity
+ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:54:9-57:83
+	android:screenOrientation
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:55:13-50
+	android:configChanges
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:56:13-59
+	android:theme
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:57:13-71
+	android:name
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml:54:19-47
+uses-sdk
+INJECTED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml
+INJECTED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\6f53dcbfb2a7c0566b1ce0501fbc734f\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\6f53dcbfb2a7c0566b1ce0501fbc734f\AndroidManifest.xml:18:5-42
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary341] C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\openCVLibrary341\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:openCVLibrary341] C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\openCVLibrary341\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:library-anti-distortion:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\library-anti-distortion-4.7.aar\d8ebd1a6c98d6c9ae5cccdeff0218b47\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:library-anti-distortion:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\library-anti-distortion-4.7.aar\d8ebd1a6c98d6c9ae5cccdeff0218b47\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ce3a4df6b5a5380304985e3b732ea189\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ce3a4df6b5a5380304985e3b732ea189\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\dbd802ec6dd2716ec40f191a3296ea1d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\dbd802ec6dd2716ec40f191a3296ea1d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\25f96f4325b978de6f9f9447dff10e7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\25f96f4325b978de6f9f9447dff10e7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\e106aaf0b3c9bdd4f4bae70bc94372d9\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\e106aaf0b3c9bdd4f4bae70bc94372d9\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fb5046655a6d7b1e38363eaf4e2119b0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fb5046655a6d7b1e38363eaf4e2119b0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\ab6bfd01a45db75162dab100e5269c57\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\ab6bfd01a45db75162dab100e5269c57\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9fe48d7b3fd523a939a7b574914fc53e\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9fe48d7b3fd523a939a7b574914fc53e\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c9f0437bac9fcbf434838ccde24038ef\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c9f0437bac9fcbf434838ccde24038ef\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\32d2616072aadadf0065047b06e812ef\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\32d2616072aadadf0065047b06e812ef\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\bdc6890c349e632b6bbcb45e63601242\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\bdc6890c349e632b6bbcb45e63601242\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml
+INJECTED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ce3a4df6b5a5380304985e3b732ea189\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml
+		ADDED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml
+		INJECTED from C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\AndroidManifest.xml
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:14:5-98
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:14:22-95
+uses-permission#android.permission.WRITE_USER_DICTIONARY
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:24:22-68
+uses-permission#android.permission.CAMERA
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:25:5-65
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:25:22-62
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:29:22-78
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:30:5-75
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:30:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:31:5-73
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:31:22-70
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:32:22-76
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:33:5-84
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:33:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:34:5-68
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:34:22-65
+uses-permission#android.permission.GET_TASKS
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:38:5-68
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:38:22-65
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:41:5-74
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:41:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:42:5-71
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:42:22-68
+uses-permission#android.permission.RAISED_THREAD_PRIORITY
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:43:5-81
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:43:22-78
+uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:44:5-85
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:44:22-82
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:50:5-74
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:50:22-71
+service#dji.sdk.sdkmanager.DJIGlobalService
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:61:9-63:43
+	android:stopWithTask
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:63:13-40
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:62:13-63
+receiver#dji.logic.receiver.DJIPilotStartupReceiver
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:65:9-72:20
+	android:exported
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:67:13-36
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:66:13-70
+intent-filter#action:name:dji.go3.STARTUP+action:name:dji.go4.STARTUP
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:68:13-71:29
+action#dji.go3.STARTUP
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:69:17-58
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:69:25-55
+action#dji.go4.STARTUP
+ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:70:17-58
+	android:name
+		ADDED from [com.dji:dji-sdk:4.7] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\dji-sdk-4.7.aar\b1a60d59ad95623b8231103b77f65ac9\AndroidManifest.xml:70:25-55
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ce3a4df6b5a5380304985e3b732ea189\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\25f96f4325b978de6f9f9447dff10e7a\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\25f96f4325b978de6f9f9447dff10e7a\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\e106aaf0b3c9bdd4f4bae70bc94372d9\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\e106aaf0b3c9bdd4f4bae70bc94372d9\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fb5046655a6d7b1e38363eaf4e2119b0\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\fb5046655a6d7b1e38363eaf4e2119b0\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\ab6bfd01a45db75162dab100e5269c57\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\ab6bfd01a45db75162dab100e5269c57\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9fe48d7b3fd523a939a7b574914fc53e\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\9fe48d7b3fd523a939a7b574914fc53e\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c9f0437bac9fcbf434838ccde24038ef\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\c9f0437bac9fcbf434838ccde24038ef\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\32d2616072aadadf0065047b06e812ef\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\32d2616072aadadf0065047b06e812ef\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\bdc6890c349e632b6bbcb45e63601242\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\bdc6890c349e632b6bbcb45e63601242\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ce3a4df6b5a5380304985e3b732ea189\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Cris\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ce3a4df6b5a5380304985e3b732ea189\AndroidManifest.xml:26:9-47
