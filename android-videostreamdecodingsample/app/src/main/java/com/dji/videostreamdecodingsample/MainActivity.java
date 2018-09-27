@@ -91,6 +91,11 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     int m_yuvHeight;
     int m_iShow;
     int m_iFrameNumber;
+
+    float x_coordinate;
+    float y_coordinate;
+    boolean object_detected;
+
     protected Bitmap mBitMapImage;
     protected byte[] mBytes;
     Paint mPaint = new Paint();
@@ -902,7 +907,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         //Core.inRange(mHSV, new Scalar(100,150,0), new Scalar(140,255,255), upper_red_hue_range);
         //Orange
         // Core.inRange(mHSV, new Scalar(5,50,50), new Scalar(15,255,255), upper_red_hue_range);
-
         Imgproc.pyrDown(upper_red_hue_range, dsIMG, new Size(upper_red_hue_range.cols() / 2, upper_red_hue_range.rows() / 2));
         Imgproc.pyrUp(dsIMG, usIMG, upper_red_hue_range.size());
         Imgproc.Canny(usIMG, bwIMG, 0, threshold);
@@ -936,12 +940,14 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
                 if (numberVertices == 4 && mincos >= -0.1 && maxcos <= 0.3) {
                     setLabel(rgba, "X", cnt);
+                    object_detected=true;
                 }
 
             }
 
         }
         return rgba;
+
     }
 
     private  double angle(Point pt1, Point pt2, Point pt0) {
@@ -965,7 +971,8 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         Point pt = new Point(r.x + ((r.width - text.width) / 2),r.y + ((r.height + text.height) / 2));
         Point pt2 = new Point(r.x ,r.y -20);
         Point pt3 = new Point(r.x ,r.y -70);
-
+         x_coordinate=r.x;
+         y_coordinate=r.y;
         String label2= "Distance= " +  df2.format(1739.00f/(r.width*r.height)) +"meter" ;
         String label3= "P(" + Double.toString(r.x + ((r.width - text.width) / 2)) + ","+ Double.toString(r.y + ((r.height + text.height) / 2))+ ")";
 
