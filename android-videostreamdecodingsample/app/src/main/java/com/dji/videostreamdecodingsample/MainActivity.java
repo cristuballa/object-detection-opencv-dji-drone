@@ -71,11 +71,33 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
+import java.util.Stack;
 
 import static org.opencv.core.Core.flip;
 
+
+import dji.common.error.DJIError;
+import dji.common.flightcontroller.FlightControllerState;
+import dji.common.flightcontroller.ObstacleDetectionSector;
+import dji.common.flightcontroller.VisionDetectionState;
+import dji.common.flightcontroller.virtualstick.FlightControlData;
+import dji.common.flightcontroller.virtualstick.FlightCoordinateSystem;
+import dji.common.flightcontroller.virtualstick.RollPitchControlMode;
+import dji.common.flightcontroller.virtualstick.VerticalControlMode;
+import dji.common.flightcontroller.virtualstick.YawControlMode;
+import dji.common.util.CommonCallbacks;
+import dji.sdk.flightcontroller.FlightAssistant;
+import dji.sdk.flightcontroller.FlightController;
+import dji.sdk.products.Aircraft;
+
+
 public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback {
     private static final String TAG = MainActivity.class.getSimpleName();
+
+    static private Aircraft aircraft = new Aircraft(null);
+    static private FlightController flightController = aircraft.getFlightController();
+    static private FlightAssistant flightAssistant = flightController.getFlightAssistant();
+    static private Stack<Float> flightMoves = new Stack<>();
     private static final int MSG_WHAT_SHOW_TOAST = 0;
     private static final int MSG_WHAT_UPDATE_TITLE = 1;
     private SurfaceHolder.Callback surfaceCallback;
@@ -342,9 +364,10 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                         }
                         break;
                 }
-
             }
         };
+
+
 
         if (null == product || !product.isConnected()) {
             mCamera = null;
@@ -375,6 +398,28 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         }
     }
 
+    private void takeOff() {
+        // Take off action
+        flightController.startTakeoff(null);
+    }
+
+    private void Pitch2(int distance) {
+
+        flightController.setRollPitchControlMode(RollPitchControlMode.VELOCITY);
+        flightController.setRollPitchCoordinateSystem(FlightCoordinateSystem.BODY);
+        flightController.sendVirtualStickFlightControlData(new FlightControlData(15f, 0, 0, 0), null);
+
+    }
+
+    private void land() {
+        // Land and on result give control back to Executor
+        flightController.startLanding(new CommonCallbacks.CompletionCallback() {
+            @Override
+            public void onResult(DJIError djiError) {
+            }
+        });
+    }
+
     /**
      * Init a fake texture view to for the codec manager, so that the video raw data can be received
      * by the camera
@@ -397,6 +442,12 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                 videoViewWidth = width;
                 videoViewHeight = height;
                 Log.d(TAG, "real onSurfaceTextureAvailable2: width " + videoViewWidth + " height " + videoViewHeight);
+
+                if (object_detected==true){
+                   //Pitch
+                    showToast("Object Detected: " );
+                }
+
 
             }
 
@@ -446,7 +497,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                         DJIVideoStreamDecoder.getInstance().resume();
                         break;
                 }
-
             }
 
             @Override
@@ -772,7 +822,8 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     }
 
     private void handleYUVClick() {
-
+        land();
+        /*
         if (screenShot.isSelected()) {
             screenShot.setText("YUV Screen Shot");
             screenShot.setSelected(false);
@@ -812,6 +863,10 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             savePath.setText("");
            // savePath.setVisibility(View.VISIBLE);
         }
+
+        */
+
+
     }
 
     private void displayPath(String path) {
@@ -847,6 +902,9 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private void useFrames() {
         try {
             DJIVideoStreamDecoder.getInstance().changeSurface(null);
+            DJIVideoStreamDecoder.getInstance().setYuvDataListener(MainActivity.this);
+            takeOff();
+
             if (canvasThread == null) {
              //   showToast(" canvasThread not null");
                 canvasThread = new CanvasThread(videostreamPreviewSh);
@@ -984,7 +1042,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         Imgproc.putText(im, label2, pt3, fontface, 2, new Scalar(0, 255, 0, 255), 5);
       //  Imgproc.putText(im, label, pt, fontface, scale, new Scalar(0, 255, 0, 255), thickness);
         Imgproc.rectangle(im, new Point(r.x, r.y), new Point(r.x + r.width, r.y + r.height), new Scalar(0, 255, 0, 255), 10);
-        showToast("Object Detected: " + object_detected);
+       // showToast("Object Detected: " + object_detected);
     }
     public void btnFrames(View v) {
         //useLiveStream();
@@ -1052,7 +1110,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             Canvas c;
             int x=0;
             while (run) {
-
                c = null;
                 timeNow = System.currentTimeMillis();
                 timeDelta = timeNow - timePrevFrame;
@@ -1063,21 +1120,21 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                     }
                 }
                 //showToast(" draw");
-                timePrevFrame = System.currentTimeMillis();
-                //try {
+               timePrevFrame = System.currentTimeMillis();
+                try {
                     c = surfaceHolder.lockCanvas(null);
                     synchronized (surfaceHolder) {
                         if (c != null) {
                             draw(c);
-                            surfaceHolder.unlockCanvasAndPost(c);
+                           // surfaceHolder.unlockCanvasAndPost(c);
                         }
-                //    }
-               // } finally {
-                //    if (c != null) {
-                //        try {
-                //            surfaceHolder.unlockCanvasAndPost(c);
-                //        } catch (Exception e) {Log.e(TAG, "surface Unlock" + e.getMessage());}
-                //    }
+                    }
+                } finally {
+                    if (c != null) {
+                        try {
+                            surfaceHolder.unlockCanvasAndPost(c);
+                        } catch (Exception e) {Log.e(TAG, "surface Unlock" + e.getMessage());}
+                    }
                 }
             }
         }
