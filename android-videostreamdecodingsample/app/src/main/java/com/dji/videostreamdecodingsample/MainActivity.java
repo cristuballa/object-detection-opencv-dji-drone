@@ -516,7 +516,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             yuvFrame.get(bytes);
             //DJILog.d(TAG, "onYuvDataReceived2 " + dataSize);
            // m_yuvFrame = java.util.Arrays.copyOf(bytes, bytes.length);
-           m_yuvFrame=bytes;
+           m_yuvFrame= bytes;
             //showToast("Frame length "  + bytes.length);
             m_yuvWidth = width;
             m_yuvHeight = height;
@@ -542,11 +542,13 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     }
 
     private void saveYuvDataToJPEG(byte[] yuvFrame, int width, int height){
+
         if (yuvFrame.length < width * height) {
             //DJILog.d(TAG, "yuvFrame size is too small " + yuvFrame.length);
             return;
 
         }
+
         m_yuvFrame = java.util.Arrays.copyOf(yuvFrame, yuvFrame.length);
         showToast("Frame length "  + yuvFrame.length);
         m_yuvWidth = width;
@@ -900,6 +902,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         Mat mHSV = new Mat();
         Mat  upper_red_hue_range= new Mat();
+        object_detected=false;
         Imgproc.cvtColor(rgba, mHSV, Imgproc.COLOR_RGB2HSV, 3); //3 is HSV Channel
         //red
         Core.inRange(mHSV, new Scalar(160, 100, 100), new Scalar(179, 255, 255), upper_red_hue_range);
@@ -970,17 +973,18 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         org.opencv.core.Rect r = Imgproc.boundingRect(contour);
         Point pt = new Point(r.x + ((r.width - text.width) / 2),r.y + ((r.height + text.height) / 2));
         Point pt2 = new Point(r.x ,r.y -20);
-        Point pt3 = new Point(r.x ,r.y -70);
+        Point pt3 = new Point(r.x ,r.y -90);
          x_coordinate=r.x;
          y_coordinate=r.y;
-        String label2= "Distance= " +  df2.format(1739.00f/(r.width*r.height)) +"meter" ;
+        String label2= "Distance= " + df2.format((0.180446f*1080.6557f)/(r.width)) + " ft.";
+      //  String label2= "Distance= " +  df2.format(1739.00f/(r.width*r.height)) +"meter" ;
         String label3= "P(" + Double.toString(r.x + ((r.width - text.width) / 2)) + ","+ Double.toString(r.y + ((r.height + text.height) / 2))+ ")";
 
         Imgproc.putText(im, label3, pt2, fontface, 2, new Scalar(0, 255, 0, 255), 5);
         Imgproc.putText(im, label2, pt3, fontface, 2, new Scalar(0, 255, 0, 255), 5);
       //  Imgproc.putText(im, label, pt, fontface, scale, new Scalar(0, 255, 0, 255), thickness);
         Imgproc.rectangle(im, new Point(r.x, r.y), new Point(r.x + r.width, r.y + r.height), new Scalar(0, 255, 0, 255), 10);
-
+        showToast("Object Detected: " + object_detected);
     }
     public void btnFrames(View v) {
         //useLiveStream();
