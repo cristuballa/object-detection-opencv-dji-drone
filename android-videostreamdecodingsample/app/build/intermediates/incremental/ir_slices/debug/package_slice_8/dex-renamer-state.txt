@@ -1,4 +1,4 @@
-#Fri Oct 05 11:37:27 NZDT 2018
+#Fri Oct 05 12:57:09 NZDT 2018
 base.0=C\:\\MyTrainingNew2\\DJI Drone\\Tutorial\\Android-VideoStreamDecodingSample-master\\android-videostreamdecodingsample\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
 path.0=classes.dex
 renamed.0=classes.dex

@@ -98,6 +98,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     static private FlightController flightController = aircraft.getFlightController();
     static private FlightAssistant flightAssistant = flightController.getFlightAssistant();
     static private Stack<Float> flightMoves = new Stack<>();
+    double focalLength;
     private static final int MSG_WHAT_SHOW_TOAST = 0;
     private static final int MSG_WHAT_UPDATE_TITLE = 1;
     private SurfaceHolder.Callback surfaceCallback;
@@ -107,6 +108,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private Button btnStartFaceRecognition;
     Mat bwIMG, hsvIMG, lrrIMG, urrIMG, dsIMG, usIMG, cIMG, hovIMG;
     MatOfPoint2f approxCurve;
+    double distance;
 
     byte[] m_yuvFrame;
     int m_yuvWidth;
@@ -131,6 +133,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     long timePrevFrame = 0;
     long timeDelta;
     long timeNow;
+
     CanvasThread canvasThread;
 
     int threshold;
@@ -408,7 +411,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         flightController.setRollPitchControlMode(RollPitchControlMode.VELOCITY);
         flightController.setRollPitchCoordinateSystem(FlightCoordinateSystem.BODY);
         flightController.sendVirtualStickFlightControlData(new FlightControlData(15f, 0, 0, 0), null);
-
+        
     }
 
     private void land() {
@@ -903,7 +906,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         try {
             DJIVideoStreamDecoder.getInstance().changeSurface(null);
             DJIVideoStreamDecoder.getInstance().setYuvDataListener(MainActivity.this);
-            takeOff();
+
 
             if (canvasThread == null) {
              //   showToast(" canvasThread not null");
@@ -1032,10 +1035,21 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         Point pt = new Point(r.x + ((r.width - text.width) / 2),r.y + ((r.height + text.height) / 2));
         Point pt2 = new Point(r.x ,r.y -20);
         Point pt3 = new Point(r.x ,r.y -90);
-         x_coordinate=r.x;
-         y_coordinate=r.y;
-        String label2= "Distance= " + df2.format((0.180446f*1080.6557f)/(r.width)) + " ft.";
-      //  String label2= "Distance= " +  df2.format(1739.00f/(r.width*r.height)) +"meter" ;
+        // F=(PxD)/W
+        // D=WF/P
+
+        x_coordinate=r.x;
+        y_coordinate=r.y;
+
+        double W=14.7;
+        double P=256;
+        double D=50;
+        double F= ((P*D)/W);
+
+        String label2= "Distance= " + df2.format((F*W)/(r.width)) + " cm";
+       //String label2= "Distance= " + df2.format((0.180446f*1080.6557f)/(r.width)) + " ft. pixel:" + r.width  ;
+      //String label2= "Distance= " +  df2.format(1739.00f/(r.width*r.height)) +"meter" ;
+
         String label3= "P(" + Double.toString(r.x + ((r.width - text.width) / 2)) + ","+ Double.toString(r.y + ((r.height + text.height) / 2))+ ")";
 
         Imgproc.putText(im, label3, pt2, fontface, 2, new Scalar(0, 255, 0, 255), 5);
@@ -1063,7 +1077,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
 
     private void showFrame(Canvas canvas, SurfaceHolder holder, byte[] yuvFrame, int yuv_width, int yuv_height) {
-
         if (holder != null) {
             //Canvas canvas = holder.lockCanvas();
             // Convert YUV to bitmap.

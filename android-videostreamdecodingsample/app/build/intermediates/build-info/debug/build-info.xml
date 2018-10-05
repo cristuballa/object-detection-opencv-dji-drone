@@ -6,26 +6,23 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.1.0"
-    timestamp="1538692615575"
+    timestamp="1538697422358"
     token="-9005450591839171482"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="6021" />
+        duration="1378" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="662" />
+        duration="197" />
     <task
         name="verifier"
-        duration="325" />
+        duration="103" />
 
-    <artifact
-        location="C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-        type="SPLIT" />
     <artifact
         location="C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
@@ -60,16 +57,16 @@
         location="C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
     <artifact
+        location="C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        type="SPLIT" />
+    <artifact
         location="C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1538692615575"
+        timestamp="1538697422358"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
         <artifact
             location="C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
@@ -102,6 +99,9 @@
             type="SPLIT" />
         <artifact
             location="C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
             location="C:\MyTrainingNew2\DJI Drone\Tutorial\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
